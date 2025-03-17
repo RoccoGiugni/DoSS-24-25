@@ -1,5 +1,6 @@
 # DoSS-24-25
 Material of the course Dynamics of Stellar Systems A.Y. 2024/25
+from the Master Degree in Astrophysics and Space Physics in Bicocca University, Milan.
 
 
 FILE 1: `nbody.C'
