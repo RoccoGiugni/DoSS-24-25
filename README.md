@@ -10,11 +10,15 @@ variable time steps, based on the fourth-order Hermite integration scheme.
 For example, on a Linux system you can use the GNU g++ compiler, and simply type:
 "g++ -o nbody nbody.C" to produce the executable "nbody".
 
-To run type: "nbody -d X -e X -o X -t X < in.txt > out.txt". Where -d is the integration
-step, -e the time interval at which an update is printed on terminal, -o the time interval
-at which coordinates are printed in the output file, -t is the time of the simulation.
-X stands for the chosen value. Arguments aren't mandatory to run the code. The input and
-output file are "in.txt" and "out.txt". The input file must be write as follow:
+To run type:
+
+    nbody -d X -e X -o X -t X < in.txt > out.txt
+    
+where -d is the integration step, -e the time interval at which an update is printed on
+terminal, -o the time interval at which coordinates are printed in the output file, -t is
+the time of the simulation. X stands for the chosen value. Arguments aren't mandatory to
+run the code. The input and output file are "in.txt" and "out.txt".
+The input file must be write as follow:
 
 	n_bodies
 	initial_time
